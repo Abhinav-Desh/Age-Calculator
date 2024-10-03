@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="inputs-buttons">
+    <label for="BirthDate" >Enter your BirthDate:</label>
+    <input type="date" id="birthday" name="birthday" onclick="today()" style="font-size: 20px; text-align: center;">
+</div>
+     <div class="buttons">
+    <button class="btn" onclick="Age()">Calculate</button>
+    <button class="btn" onclick="Reset()">Reset</button>
+</div>
+<div class="output">
+<p id="result"></p>
+<p id="fun"></p>
+</div>
+</div>
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
